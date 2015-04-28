@@ -21,12 +21,15 @@ This is a basic node application to manage the members of a club. The functional
 - Node.js to run server side JavaScript
 - Express as a server side web application framework
 - MongoDB as a NoSQL document database
+- AngularJS for client UI
 
 ## Status
+2015-04-28: Implemented basic members ui
 2015-04-28: Implemented members api
 
 ## Backlog
-- UI for members
+- Add form validation to members ui
+- Prettify members ui
 - Authentication
 - Member list API
 - UI for member lists
