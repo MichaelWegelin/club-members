@@ -14,7 +14,7 @@ This is a basic node application to manage the members of a club. The functional
 
  5% done as of 2015-04-28
 
- - Basic ui to list and add members
+ - Bas ic ui to list and add members
  - Basic api to retrieve and store members
  
 ## Backlog
@@ -23,7 +23,7 @@ This is a basic node application to manage the members of a club. The functional
 - Authentication
 - Enhance member api to change and delete members
 - Enhance member ui to change and delete members
-- Implement ember list api
+- Implement member list api
 - Create ui for member lists
 - Implement api to send email
 - Implement ui for sending email
