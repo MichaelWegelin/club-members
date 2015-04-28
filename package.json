@@ -1,0 +1,29 @@
+{
+  "name": "club-members",
+  "version": "1.0.0",
+  "description": "Manage members of a club",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/MichaelWegelin/club-members"
+  },
+  "keywords": [
+    "club",
+    "management"
+  ],
+  "author": "Michael Wegelin",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/MichaelWegelin/club-members/issues"
+  },
+  "homepage": "https://github.com/MichaelWegelin/club-members",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "mongoose": "^4.0.2"
+  }
+}
