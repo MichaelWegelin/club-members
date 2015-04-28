@@ -31,9 +31,11 @@ This is a basic node application to manage the members of a club. The functional
 ## Setup
 
 1. Install node.js and MongoDB on your machine
-2. Download the sources or clone the repository (git clone http://github.com/MichaelWegelin/club-members
-3. % npm install
-4. % node server.js
+2. Download and unzip the sources or clone the repository (run `git clone http://github.com/MichaelWegelin/club-members`)
+3. Run `npm install` to fetch the dependencies
+4. Run `gulp assets` to create the assets (.css and .js files for the client-side ui)
+5. Run `node server.js`
+6. Navigate to http://localhost:3000/
 
 ## Technologies used
 - Node.js to run server side JavaScript
