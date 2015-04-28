@@ -12,8 +12,8 @@ This is a basic node application to manage the members of a club. The functional
 
 ## Setup
 
-1. Install node.js
-2. Download the sources
+1. Install node.js and MongoDB
+2. Download the sources or clone the repository (git clone http://github.com/MichaelWegelin/club-members
 3. % npm install
 4. % node server.js
 
