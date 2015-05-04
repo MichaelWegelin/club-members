@@ -1,11 +1,11 @@
-﻿var db = require("../db")
+﻿var db = require('../db');
 
-var Member = db.model("Member", {
+var Person = db.model('Person', {
   email:     {type: String, required: true},
   gender:    {type: String, required: true},
   firstname: {type: String, required: true},
   lastname:  {type: String, required: true},
-  roles:     [String]
-})
+  lists:     [String]
+});
 
-module.exports = Member
+module.exports = Person;

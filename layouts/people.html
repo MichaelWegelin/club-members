@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  </head>
+
+  <body ng-app="app">
+
+    <div ng-controller="PeopleCtrl" class="container">
+      <h1>All Persons</h1>
+
+      <form role="form">
+        <div class="form-group">
+            <label for="gender">Gender (m/f)</label><input ng-model="personGender" id="gender" class="form-control" /> <br>
+            <label for="firstname">Given Name</label><input ng-model="personFirstname" class="form-control" /> <br>
+            <label for="lastname">Surname</label><input ng-model="personLastname"  class="form-control" /> <br>
+            <label for="email">Email</label><input ng-model="personEmail"     class="form-control" /> <br>
+            <span class="input-group-btn">
+              <button ng-click="addPerson()" class="btn btn-default">Add Person</button>
+            </span>
+        </div>
+      </form>
+
+      <ul class="list-group">
+        <li ng-repeat="person in people | orderBy:'lastname'" class="list-group-item">
+          <strong>{{ person.lastname }}</strong>, {{person.firstname}} ({{person.gender}}, {{person.email}})
+        </li>
+      </ul>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
